@@ -16,16 +16,19 @@ pipeline {
         stage('TEST1') { 
             steps {
                 echo '--TEST1 STAGE EXECUTION --'
+		    echo "Just to check the stage block"
             }
         }
         stage('TEST2') { 
             steps {
                 echo '--TEST2 STAGE EXECUTION --'
+		    echo "Just to check the stage block"
             }
         }
 stage('TEST3') { 
             steps {
                 echo '--TEST3 STAGE EXECUTION --'
+		    echo "Just to check the stage block"
             }
         }
         stage('BUILD') { 
