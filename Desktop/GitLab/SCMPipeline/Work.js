@@ -1,12 +1,12 @@
 pipeline {
     agent any 
     stages {
-        stage('DELETION') { 
+        /*stage('DELETION') { 
             steps {
                 echo '--REMOVING REPOSITORY IF ALREADY EXIST --'
                 sh "sudo rm -rf Work.js"
             }
-        }
+        }*/
        stage('CLONE') { 
             steps {
                 echo '--CLONE STAGE EXECUTION ---'
