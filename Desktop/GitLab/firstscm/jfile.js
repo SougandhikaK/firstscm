@@ -7,12 +7,12 @@ pipeline {
                 sh "sudo rm -rf Work.js"
             }
         }*/
-       stage('CLONE') { 
+       /*stage('CLONE') { 
             steps {
                 echo '--CLONE STAGE EXECUTION ---'
     sh "git clone https://gitlab.com/my-awesome-group8810907/firstscm.git test"
             }
-        }
+        }*/
         stage('TEST1') { 
             steps {
                 echo '--TEST1 STAGE EXECUTION --'
@@ -21,6 +21,11 @@ pipeline {
         stage('TEST2') { 
             steps {
                 echo '--TEST2 STAGE EXECUTION --'
+            }
+        }
+stage('TEST3') { 
+            steps {
+                echo '--TEST3 STAGE EXECUTION --'
             }
         }
         stage('BUILD') { 
