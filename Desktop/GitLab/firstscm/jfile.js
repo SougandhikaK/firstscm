@@ -31,8 +31,8 @@ stage('TEST3') {
         stage('BUILD') { 
             steps {
     echo '--BUILD STAGE EXECUTION --'
-    echo 'pwd'
-    echo 'date'
+    echo "pwd"
+    echo "date"
             }
         }
   stage('DEPLOY') { 
