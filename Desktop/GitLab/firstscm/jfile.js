@@ -31,7 +31,8 @@ stage('TEST3') {
         stage('BUILD') { 
             steps {
     echo '--BUILD STAGE EXECUTION --'
-    sh "node firstscm.jfile.js"
+    echo 'pwd'
+    echo 'date'
             }
         }
   stage('DEPLOY') { 
