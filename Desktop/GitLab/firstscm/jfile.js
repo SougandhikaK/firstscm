@@ -10,7 +10,7 @@ pipeline {
        stage('CLONE') { 
             steps {
                 echo '--CLONE STAGE EXECUTION ---'
-    sh "git clone git@gitlab.com:my-awesome-group8810907/firstscm.git test"
+    sh "git clone https://gitlab.com/my-awesome-group8810907/firstscm.git test"
             }
         }
         stage('TEST1') { 
